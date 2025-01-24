@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealEyes Login</title>
+    <link rel="stylesheet" href="../css/Login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1><img src="../images/Logo.jpg" alt="Eye Icon" class="eye-icon"> RealEyes</h1>
+            <h2>WELCOME BACK!</h2>
+            <form id="loginForm" action="/login" method="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit">Login</button>
+                <div class="or">or</div>
+                <div class="social-login">
+                    <a href="#"><img src="../images/search.png" alt="Google"></a>
+                    <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../images/github.png" alt="GitHub"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

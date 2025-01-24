@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="../css/result.css">
+</head>
+<body>
+    <div class="result-container">
+        <div class="result-box">
+            <h2>!!RESULT!!</h2>
+            <img id="uploaded-file" src="" alt="Uploaded File" class="uploaded-file">
+            <p class="result-text">The Uploaded File is <span id="result-status" class="result-status"></span> <img id="result-icon" src="" alt="Result Icon" class="result-icon"></p>
+            <button onclick="goBack()">Go Back to Upload Page</button>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="../css/result1.css">
+</head>
+<body>
+    <div class="result-container">
+        <div class="result-box">
+            <h2>!!RESULT!!</h2>
+            
+            <!-- Hard-coded video thumbnail -->
+            <img id="uploaded-file" src="../images/thumbnail.PNG" alt="Uploaded Video Thumbnail" class="uploaded-file">
+            
+            <!-- Hard-coded result status (Fake) -->
+            <p class="result-text">
+                The Uploaded Video is <span id="result-status" class="result-status" style="color: red;">Fake</span>
+            </p>
+            
+            <!-- Hard-coded accuracy value (85%) -->
+            <p class="accuracy-text">
+                Accuracy: <span id="result-accuracy" class="result-accuracy">85</span>%
+            </p>
+            
+            <!-- Button to go back to the upload page -->
+            <button onclick="goBack()">Go Back to Upload Page</button>
+        </div>
+    </div>
+    <script>
+        // Function to navigate back to the upload page
+        function goBack() {
+            window.location.href = '../html/upload.html';  
+        }
+    </script>
+</body>
+</html>

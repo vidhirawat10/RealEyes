@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Video</title>
+    <link rel="stylesheet" href="../css/upload.css">
+</head>
+<body>
+    <div class="upload-container">
+        <div class="upload-box">
+            <h1>Upload your File</h1>
+            <p>File should be in mp4, jpg, or png</p>
+            <div class="file-info-container">
+                <img src="../images/upload.png" alt="Upload Icon" class="upload-icon">
+                <div class="file-name-box"></div>
+            </div>
+            <label for="file-upload" class="custom-file-upload">
+                Browse your File
+            </label>
+            <input id="file-upload" type="file" accept=".mp4, .jpg, .png"/>
+            <button id="upload-btn" class="custom-file-upload" style="display: none;">
+                Upload File
+            </button>
+            <div id="success-message" class="success-message" style="display: none;">
+                File has been uploaded successfully
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
