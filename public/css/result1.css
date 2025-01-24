@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Montago';
+    src: url('path/to/Montago.woff2') format('woff2'),
+         url('path/to/Montago.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.result-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.result-box {
+    background-color: rgba(17, 17, 17, 0);
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Montago', sans-serif;
+}
+
+.result-box h2 {
+    font-size: 30px;
+    margin: 15px 0;
+    color: #fff;
+    font-family: 'Montago', sans-serif;
+}
+
+.uploaded-file {
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.result-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.accuracy-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.result-status {
+    font-weight: bold;
+    color: red;
+}
+
+.result-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.result-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.result-box button:hover {
+    background-color: #333;
+}
+
+@media (max-width: 480px) {
+    .result-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .result-box h2 {
+        font-size: 20px;
+    }
+
+    .result-text {
+        font-size: 16px;
+    }
+
+    .result-box button {
+        padding: 8px;
+    }
+}

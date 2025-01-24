@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: 'Montago';
+    src: url('../path/to/Montago.woff2') format('woff2'),
+         url('../path/to/Montago.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.profile-box {
+    background-color: rgba(17, 17, 17, 0); 
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Montago', sans-serif; 
+}
+
+
+.profile-box h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Montago', sans-serif;
+}
+
+
+.profile-box .user-info {
+    margin: 20px 0;
+}
+
+.profile-box .user-info p {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #ccc;
+}
+
+
+.profile-box .profile-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-box .profile-button:hover {
+    background-color: #333;
+}
+
+
+.profile-box .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .profile-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .profile-box h1 {
+        font-size: 20px;
+    }
+
+    .profile-box .user-info p {
+        font-size: 14px;
+    }
+
+    .profile-box .profile-button {
+        padding: 8px;
+    }
+}
+
+
+.mixed-section {
+    font-family: 'RealEyes', sans-serif;
+}
+
+
+.moul-section {
+    font-family: 'Welcome Back', sans-serif;
+}

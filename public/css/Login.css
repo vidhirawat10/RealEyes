@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Montago';
+    src: url('path/to/Montago.woff2') format('woff2'),
+         url('path/to/Montago.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.login-box {
+    background-color: rgba(17, 17, 17, 0); 
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Montago', sans-serif; 
+}
+
+
+.login-box h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    font-family: 'Montago', sans-serif;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #000;
+    font-family: 'Montago', sans-serif;
+}
+
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.login-box input[type="email"]:focus,
+.login-box input[type="password"]:focus {
+    border-color: #666;
+    outline: none;
+}
+
+
+.login-box .forgot-password {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.login-box .forgot-password a {
+    color: #d9534f;
+    border-color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-box .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #333;
+}
+
+
+.login-box .or {
+    margin: 15px 0;
+    font-size: 12px;
+    color: black;
+}
+
+
+.login-box .social-login {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-box .social-login a img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+}
+
+.login-box .social-login a img:hover {
+    opacity: 0.8;
+}
+
+
+.eye-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 480px) {
+    .login-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .login-box h1 {
+        font-size: 20px;
+    }
+
+    .login-box h2 {
+        font-size: 16px;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+        padding: 8px;
+    }
+
+    .login-box button {
+        padding: 8px;
+    }
+}
+
+
+.mixed-section {
+    font-family: 'RealEyes', sans-serif;
+}
+
+
+.moul-section {
+    font-family: 'Welcome Back', sans-serif;
+}
