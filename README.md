@@ -36,18 +36,31 @@ Using cutting-edge deep learning techniques like **CNNs** and **RNNs**, it analy
 
 RealEyes/
 │
+<br>
 ├── public/ # Static assets
+<br>
 ├── src/ # Core processing logic
+<br>
 ├── uploads/ # Uploaded files by users
+<br>
 ├── working/ # Intermediate file processing
+<br>
 │
+<br>
 ├── app.py # Main Flask app
+<br>
 ├── deepfake_detection.py # Deepfake video analysis logic
+<br>
 ├── audio_detection_V.ipynb # Audio detection notebook (Colab)
+<br>
 ├── model_best.keras # Pre-trained DL model
+<br>
 ├── metadata.json # Model or session metadata
+<br>
 ├── .env # Environment variables
+<br>
 ├── package.json # NPM dependencies (if frontend)
+<br>
 ├── README.md # You're here!
 
 
