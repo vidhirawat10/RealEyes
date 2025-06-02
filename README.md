@@ -124,4 +124,6 @@ Made with 🔬 by **Vidhi Rawat** and **Aayush Shukla**
 
 <p align="center"><i>RealEyes - Because real eyes recognize real lies.</i></p>
 
+---
 
+> Open for collaboration in such DS-ML ideas 💡 
